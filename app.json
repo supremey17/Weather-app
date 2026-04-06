@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "scheme": "Weather_App",
+    "name": "Weather_App",
+    "slug": "Weather_App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon/home.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#eeeeee"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#eeeeee"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
